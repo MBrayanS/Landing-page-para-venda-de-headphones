@@ -1,0 +1,21 @@
+$plano-de-fundo-cor: #101113;
+$textos-cor: #fff;
+$main-cor: #34e7f8;
+$cor-secundaria: #fcfcfc;
+$h1-fonte: 4rem;
+$p-fonte: 1rem;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.centralizar {
+    display: flex;
+    align-items: center;
+}
