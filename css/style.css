@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+.centralizar, .logo, header {
+  display: flex;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 30px 8%;
+}
+
+.logo {
+  color: #fff;
+  font-size: 28px;
+  font-weight: bold;
+}
+.logo i {
+  color: #34e7f8;
+}
+
+body {
+  background-color: #101113;
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */
