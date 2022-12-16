@@ -31,8 +31,19 @@ header {
   color: #34e7f8;
 }
 
+.navegacao {
+  display: flex;
+}
+.navegacao a {
+  color: #fcfcfc;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0 30px;
+  transition: 0 0.55s ease;
+}
+
 body {
-  background-color: #101113;
+  background-color: #1d2631;
   color: #fff;
 }
 
