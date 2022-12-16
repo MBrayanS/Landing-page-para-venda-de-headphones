@@ -1,12 +1,11 @@
 .home {
     width: 100%;
-    height: 85vh;
+    height: 100vh;
     position: relative;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 2rem;
-    margin-top: 15vh;
 }
 
 .home_img img {
