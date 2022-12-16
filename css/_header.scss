@@ -1,0 +1,21 @@
+header {
+    @extend .centralizar;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 30px 8%;
+}
+
+.logo {
+    @extend .centralizar;
+    color: $textos-cor;
+    font-size: 28px;
+    font-weight: bold;
+
+    i {
+        color: $main-cor;
+    }
+}
