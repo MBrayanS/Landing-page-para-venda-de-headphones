@@ -15,7 +15,16 @@ header {
     font-size: 28px;
     font-weight: bold;
 
-    i {
-        color: $main-cor;
+    i { color: $main-cor; }
+}
+
+.navegacao {
+    display: flex;
+    a {
+        color: $cor-secundaria;
+        font-size: $p-fonte;
+        font-weight: 500;
+        margin: 0 30px;
+        transition: 0 .55s ease;
     }
 }
