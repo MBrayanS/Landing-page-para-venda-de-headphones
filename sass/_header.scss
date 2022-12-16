@@ -15,7 +15,7 @@ header {
     font-size: 28px;
     font-weight: bold;
 
-    i { color: $main-cor; }
+    i { color: $cor-principal; }
 }
 
 .navegacao {
@@ -26,5 +26,32 @@ header {
         font-weight: 500;
         margin: 0 30px;
         transition: 0 .55s ease;
+
+        &:hover {
+            color: $cor-principal;
+        }
+    }
+}
+
+.header-icons {
+    @extend .centralizar;
+
+    div {
+        font-size: 35px;
+        color: $textos-cor;
+        z-index: 1001;
+        cursor: pointer;
+    }
+
+    i {
+        margin-right: 25px;
+        font-size: 28px;
+        cursor: pointer;
+        transition: all .5s ease;
+
+        &:hover {
+            transform: translateY(-5px);
+            color: $cor-principal;
+        }
     }
 }
