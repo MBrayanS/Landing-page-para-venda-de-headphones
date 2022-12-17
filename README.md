@@ -3,11 +3,11 @@
 <p>Uma landing page para expor produtos (headphone).</p><br>
 
 ##
-<a href='https://landing-page-pearl-nine.vercel.app/'><img src='./img/projeto.png'></a>
+<a href='https://landing-page-para-venda-de-headphones.vercel.app/'><img src='./img/projeto.png'></a>
 
 ##
 
-<p> A pagina funcional pode ser vista <a href='https://landing-page-pearl-nine.vercel.app/'>aqui</a>.</p>
+<p> A pagina funcional pode ser vista <a href='https://landing-page-para-venda-de-headphones.vercel.app/'>aqui</a>.</p>
 
 <h3 align='center'>Técnologias usadas:</h3><br>
 
