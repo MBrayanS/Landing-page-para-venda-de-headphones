@@ -15,6 +15,11 @@ $p-fonte: 1rem;
     list-style: none;
 }
 
+body {
+    background-color: $plano-de-fundo-cor;
+    color: $textos-cor;
+}
+
 .centralizar {
     display: flex;
     align-items: center;
