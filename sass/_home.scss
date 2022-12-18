@@ -39,10 +39,21 @@
 }
 
 .home_text {
+    width: max-content;
+    text-align: center;
+
+    @media screen and (max-width: $screen-media){
+        margin-bottom: 120px;
+    }
+    
     h1 {
         font-size: $h1-fonte;
         line-height: 1.2;
         margin-bottom: 2px;
+        
+        @media screen and (max-width: $screen-minima){
+            font-size: 12vw;
+        }
     }
 
     h5 {
