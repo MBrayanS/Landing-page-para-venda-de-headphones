@@ -28,7 +28,10 @@ header {
 }
 
 .navegacao {
+    width: 100%;
     display: flex;
+    justify-content: space-evenly;
+
     a {
         color: $cor-secundaria;
         font-size: $p-fonte;
