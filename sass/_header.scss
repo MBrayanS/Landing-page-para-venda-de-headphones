@@ -17,7 +17,6 @@ header {
     }
 }
 
-
 .logo {
     @extend .centralizar;
     color: $textos-cor;
@@ -36,8 +35,8 @@ header {
         color: $cor-secundaria;
         font-size: $p-fonte;
         font-weight: 500;
-        margin: 0 30px;
-        transition: 0 .55s ease;
+        margin: 0 5px;
+        transition: all .55s ease;
 
         &:hover {
             color: $cor-principal;
