@@ -7,7 +7,16 @@ header {
     left: 0;
     z-index: 1000;
     padding: 30px 8%;
+
+    @media screen and (max-width: $screen-media) {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding: 5% 0;
+        gap: 20px;
+    }
 }
+
 
 .logo {
     @extend .centralizar;
