@@ -1,11 +1,12 @@
 .floates {
     @extend .centralizar;
     flex-direction: column;
-    position: absolute;
-    top: 50%;
-    left: 3%;
     gap: 3rem;
-    transform: translateY(-50%);
+
+    @media screen and (max-width: $screen-media) {
+        flex-direction: row;
+        transform: translateY(0%);
+    }
 
     li {
         @extend .centralizar;
