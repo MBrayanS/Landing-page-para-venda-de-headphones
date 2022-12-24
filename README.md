@@ -3,7 +3,11 @@
 <p>Uma landing page para expor produtos (headphone).</p><br>
 
 ##
-<a href='https://landing-page-para-venda-de-headphones.vercel.app/'><img src='./img/projeto.png'></a>
+
+<div align='center'>
+  <a href='https://landing-page-para-venda-de-headphones.vercel.app/'><img width='70%' height='400px' src='./img/projeto.png'></a>
+  <a href='https://landing-page-para-venda-de-headphones.vercel.app/'><img width='20%' height='400px' src='./img/projeto-mobile.png'></a>
+</div>
 
 ##
 
